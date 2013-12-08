@@ -3,6 +3,8 @@
 
 Sanitize html, for browser environments.
 
+[![testling badge](https://ci.testling.com/juliangruber/browser-sanitize-html.png)](https://ci.testling.com/juliangruber/browser-sanitize-html)
+
 ## Example
 
 Allow only divs and clear style attributes:
