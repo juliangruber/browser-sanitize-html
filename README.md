@@ -1,4 +1,3 @@
-
 # browser-sanitize-html
 
 Sanitize html, for browser environments.
@@ -16,7 +15,7 @@ var domify = require('domify');
 var dirty = domify('<div><span></span><div style="foo:bar"></div></div>');
 var clean = sanitize(dirty, function(el) {
   if (el.tagName != 'DIV') return false;
-  el.setAttribute('style', null);
+  el.removeAttribute('style');
 });
 console.log(clean);
 // => <div><div></div><div>
