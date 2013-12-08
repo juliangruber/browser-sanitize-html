@@ -1,0 +1,26 @@
+{
+  "name": "browser-sanitize-html",
+  "description": "Sanitize html, for browser environments",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/browser-sanitize-html.git"
+  },
+  "homepage": "https://github.com/juliangruber/browser-sanitize-html",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.3.0"
+  },
+  "keywords": [
+    "sanitize",
+    "html"
+  ],
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "license": "MIT"
+}
